@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#851313"
+    tools:context=".AdminMealMenuOperations"
+
+    >
+
+    <TableLayout
+        android:id="@+id/tableLayoutAdmin"
+        android:layout_width="477dp"
+        android:layout_height="508dp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewMeal"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Yemek Adı"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/txtMealName"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Yemek  Miktarı"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/txtMealAmount"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Yemek Fiyatı"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/txtMealPrice"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Yemek Zamanı"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spnMealTime"
+                android:layout_width="50dp"
+                android:layout_height="51dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Yemek Kategorisi"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/spnMealCategory"
+                android:layout_width="50dp"
+                android:layout_height="51dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yemek İçeriği"
+                android:textColor="@color/white" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/txtMealIngredient"
+                android:layout_width="wrap_content"
+                android:layout_height="81dp"
+                android:textColor="@color/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnNewMeal"
+                android:layout_width="204dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#2B0C50"
+                android:text="Kaydet" />
+
+            <Button
+                android:id="@+id/btnListMeal"
+                android:layout_width="167dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#2B0C50"
+                android:text="Listele"
+                android:textColor="@color/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtSearchMeal"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Aranacak Yemek Adı"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnSearchMeal"
+                android:layout_width="167dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#2B0C50"
+                android:text="Ara" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnDeleteMeal"
+                android:layout_width="204dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#2B0C50"
+                android:text="Sil"
+                tools:text="Sil" />
+
+            <Button
+                android:id="@+id/btnUpdateMeal"
+                android:layout_width="204dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#2B0C50"
+                android:text="Güncelle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:text="Sistemde Kayıtlı Yemekler"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="329dp"
+        android:layout_height="224dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayoutAdmin">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/recordingMealList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2B0C50"
+                    android:backgroundTint="#2B0C50"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

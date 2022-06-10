@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kykyemekuygulama">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launchernew"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launchernew_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KykYemekUygulama">
+        <activity
+            android:name=".MyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UserMealMenuScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMealMenuOperations"
+            android:exported="false" />
+        <activity
+            android:name=".UserMainPageScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOperationsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMenuScreen"
+            android:exported="false" />
+        <activity
+            android:name=".DormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodManagementScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminScreen"
+            android:exported="false" />
+        <activity
+            android:name=".StartingScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KykAppScreen"
+            android:exported="false" />
+        <activity
+            android:name=".YedekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodManagement"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AppScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

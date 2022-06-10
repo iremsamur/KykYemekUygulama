@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_login.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_meal_menu_operations.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_menu_screen.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_operations_screen.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_screen.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_app_screen.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_dorm.xml" value="0.18125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_food_management.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_food_management_screen.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_forgot_password.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_kyk_app_screen.xml" value="0.1984375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_my_profile.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_register_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_splash_screen.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_starting_screen.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_user_main_page_screen.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_user_meal_menu_screen.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_yedek.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/fragment_admin_tab.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/fragment_main.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/fragment_user_tab.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/menu/menu_item.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_meal_menu_operations.xml" value="0.264" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_menu_screen.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_operations_screen.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_admin_screen.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_app_screen.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_dorm.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_food_management.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_food_management_screen.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_kyk_app_screen.xml" value="0.2" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_my_profile.xml" value="0.1403985507246377" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_register_screen.xml" value="0.264" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_starting_screen.xml" value="0.176" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_user_main_page_screen.xml" value="0.176" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_user_meal_menu_screen.xml" value="0.176" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/activity_yedek.xml" value="0.21875" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/layout/fragment_main.xml" value="0.264" />
+        <entry key="..\:/Users/nilya/AndroidStudioProjects/KykYemekUygulama/app/src/main/res/menu/menu_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

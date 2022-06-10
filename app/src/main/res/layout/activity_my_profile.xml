@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="370dp"
+        android:layout_height="139dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="186dp"
+            android:layout_height="91dp"
+            android:text="Profil Bilgilerimi Düzenle"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="125dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/profil"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="4dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TableLayout
+        android:layout_width="381dp"
+        android:layout_height="521dp"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="181dp"
+        android:layout_marginTop="120dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Ad"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtUpdateName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soyad"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtUpdateSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:text="TC Kimlik No"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtUpdateTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mail"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtUpdateMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefon Numarası"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtUpdatePhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adres"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="20sp" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/txtUpdateAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/txtView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Şifre"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtUpdatePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnUpdateProfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2B0C50"
+                android:text="Güncelle" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
